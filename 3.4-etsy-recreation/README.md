@@ -57,7 +57,14 @@ Everything above plus:
 
 ## Additional Resources
 
+- [Handlebars.js documentation](http://handlebarsjs.com/)
+
 - [Etsy API Documentation](https://www.etsy.com/developers/documentation/reference/listing)
 - [Etsy Payload
   Example](https://api.etsy.com/v2/listings/active?api_key=cdwxq4soa7q4zuavbtynj8wx&keywords=tacos&includes=Images,Shop&sort_on=score)
 - [Etsy Page Example](https://www.etsy.com/search?q=tacos)
+
+### Installing Handlebars
+1. In your project directory: `bower install --save handlebars`
+2. Link to the handlebars library: `<script
+   src="bower_components/handlebars/handlebars.js"></script>`

@@ -94,6 +94,6 @@ Then you can call the function like this, where you would replace `logResults`
 with the name of the function you want to be called with the results.
 
 ```js
-var url = "https://api.etsy.com/v2/listings/active?api_key=cdwxq4soa7q4zuavbtynj8wx&keywords=tacos&includes=Images,Shop";
+var url = "https://api.etsy.com/v2/listings/active.js?api_key=cdwxq4soa7q4zuavbtynj8wx&keywords=tacos&includes=Images,Shop";
 fetchJSONP(url, logResults);
 ```
